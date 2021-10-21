@@ -4,9 +4,9 @@
 M1 DB 10,13,10,13,'                 ****Welcome to Our Restaurants****$',10,13 
 M2 DB 10,13,10,13,'Enter your Choise $'
 
-M3 DB 10,13,'  **                 1.Breakfast Menue         **$' 
-M4 DB 10,13,'  **                 2.Lunce Menue             **$'
-MS5 DB 10,13,'  **                 3.Dinner Menue            **$'
+M3 DB 10,13,'  **                 1.Breakfast Menu         **$' 
+M4 DB 10,13,'  **                 2.Lunce Menu             **$'
+MS5 DB 10,13,'  **                 3.Dinner Menu            **$'
 M5 DB 10,13,'  **                 4.Snacks                  **$'
 M6 DB 10,13,'  **                 5.Sweat Meat              **$'
 M7 DB 10,13,'  **                 6.Drinks                  **$'  
