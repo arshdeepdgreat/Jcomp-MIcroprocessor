@@ -15,7 +15,7 @@ M7 DB 10,13,'  **                 6.Drinks                  **$'
 M8 DB 10,13,10,13,'***Choise your food from the menu***$'
   
 ;BREAKFAST  
-M9 DB 10,13,'  **           1.Tanduri Roti            10/-                      **$' ;breakfast
+M9 DB 10,13,'  **           1.Tandoori Roti            10/-                      **$' ;breakfast
 M10 DB 10,13,'  **           2.Nan                     10/-                      **$'
 M11 DB 10,13,'  **           3.Parata                  10/-                      **$'
 M12 DB 10,13,'  **           4.Dal                     10/-                      **$'
