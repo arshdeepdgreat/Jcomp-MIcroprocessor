@@ -4,8 +4,8 @@
 M1 DB 10,13,10,13,'                 ****Welcome to Our Restaurants****$',10,13 
 M2 DB 10,13,10,13,'Enter your Choise $'
 
-M3 DB 10,13,'  **                 1.Breakfast Menue         **$' 
-M4 DB 10,13,'  **                 2.Lunce Menue             **$'
+M3 DB 10,13,'  **                 1.Breakfast Menu         **$' 
+M4 DB 10,13,'  **                 2.Lunce Menu             **$'
 MS5 DB 10,13,'  **                 3.Dinner Menue            **$'
 M5 DB 10,13,'  **                 4.Snacks                  **$'
 M6 DB 10,13,'  **                 5.Sweat Meat              **$'
@@ -16,7 +16,7 @@ M8 DB 10,13,10,13,'***Choise your food from the menu***$'
   
 ;BREAKFAST  
 M9 DB 10,13,'  **           1.Tanduri Roti            10/-                      **$' ;breakfast
-M10 DB 10,13,'  **           2.Nan                     10/-                      **$'
+M10 DB 10,13,'  **           2.Naan                     10/-                      **$'
 M11 DB 10,13,'  **           3.Parata                  10/-                      **$'
 M12 DB 10,13,'  **           4.Dal                     10/-                      **$'
 M13 DB 10,13,'  **           5.Mixed Vegetables        20/-                      **$'
@@ -29,8 +29,8 @@ M17 DB 10,13,'  **           9.Goats Feet              60/-                     
 
 ;lunch & dinner 
 
-M25 DB 10,13,'  **  1.Kachchi Birani(Kabab+Egg)              90/-                **$' 
-M26 DB 10,13,'  **  2.Chicken Birani(Kabab+Egg)              90/-                **$' 
+M25 DB 10,13,'  **  1.Kachchi Biryani(Kabab+Egg)              90/-                **$' 
+M26 DB 10,13,'  **  2.Chicken Biryani(Kabab+Egg)              90/-                **$' 
 M27 DB 10,13,'  **  3.Plain Polaw                            30/-                **$' 
 M28 DB 10,13,'  **  4.Chicken Bhuna Khichuri(with Kabab+Egg) 90/-                **$'
 M29 DB 10,13,'  **  5.Mutton Bhuna Khichuri(with Kabab+Egg)  90/-                **$'
