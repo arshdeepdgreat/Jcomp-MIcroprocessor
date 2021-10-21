@@ -2,13 +2,13 @@
 .STACK 1000H
 .DATA
 M1 DB 10,13,10,13,'                 ****Welcome to Our Restaurants****$',10,13 
-M2 DB 10,13,10,13,'Enter your Choise $'
+M2 DB 10,13,10,13,'Enter your Choice $'
 
 M3 DB 10,13,'  **                 1.Breakfast Menu         **$' 
-M4 DB 10,13,'  **                 2.Lunce Menu             **$'
+M4 DB 10,13,'  **                 2.Lunch Menu             **$'
 MS5 DB 10,13,'  **                 3.Dinner Menu            **$'
 M5 DB 10,13,'  **                 4.Snacks                  **$'
-M6 DB 10,13,'  **                 5.Sweat Meat              **$'
+M6 DB 10,13,'  **                 5.Dessert              **$'
 M7 DB 10,13,'  **                 6.Drinks                  **$'  
                
                
@@ -16,12 +16,12 @@ M8 DB 10,13,10,13,'***Choise your food from the menu***$'
   
 ;BREAKFAST  
 M9 DB 10,13,'  **           1.Tandoori Roti            10/-                      **$' ;breakfast
-M10 DB 10,13,'  **           2.Nan                     10/-                      **$'
-M11 DB 10,13,'  **           3.Parata                  10/-                      **$'
+M10 DB 10,13,'  **           2.Naan                     10/-                      **$'
+M11 DB 10,13,'  **           3.Parantha                  10/-                      **$'
 M12 DB 10,13,'  **           4.Dal                     10/-                      **$'
 M13 DB 10,13,'  **           5.Mixed Vegetables        20/-                      **$'
 M14 DB 10,13,'  **           6.Halwa                   20/-                      **$'
-M15 DB 10,13,'  **           7.Luchi                   10/-                      **$'
+M15 DB 10,13,'  **           7.Sausage                   10/-                      **$'
 M16 DB 10,13,'  **           8.Fried Egg               20/-                      **$'
 M17 DB 10,13,'  **           9.Dum Aloo                60/-                      **$' 
 
@@ -29,34 +29,34 @@ M17 DB 10,13,'  **           9.Dum Aloo                60/-                     
 
 ;lunch & dinner 
 
-M25 DB 10,13,'  **  1.Kachchi Biryani(Kabab+Egg)              90/-                **$' 
-M26 DB 10,13,'  **  2.Chicken Biryani(Kabab+Egg)              90/-                **$' 
+M25 DB 10,13,'  **  1.Karachi Biryani(Kebab+Egg)              90/-                **$' 
+M26 DB 10,13,'  **  2.Chicken Biryani(Kebab+Egg)              90/-                **$' 
 M27 DB 10,13,'  **  3.Plain Pulav                            30/-                **$' 
-M28 DB 10,13,'  **  4.Chicken Bhuna Khichuri(with Kabab+Egg) 90/-                **$'
-M29 DB 10,13,'  **  5.Mutton Bhuna Khichuri(with Kabab+Egg)  90/-                **$'
+M28 DB 10,13,'  **  4.Chicken Bhuna Khichdi(with Kebab+Egg) 90/-                **$'
+M29 DB 10,13,'  **  5.Mutton Bhuna Khichdi(with Kebab+Egg)  90/-                **$'
 M30 DB 10,13,'  **  6.Plain Rice                             10/-                **$'
 M31 DB 10,13,'  **  7.Pabda Fish                             30/-                **$'
-M32 DB 10,13,'  **  8.Lobstar Big/Small                      30/-                **$'
-M33 DB 10,13,'  **  9.Koi Fish                               30/-                **$'
+M32 DB 10,13,'  **  8.Lobster Big/Small                      30/-                **$'
+M33 DB 10,13,'  **  9.Pomfret Fish                               30/-                **$'
  
 
  
  
 ;DINNER
 
-M18 DB 10,13,'  **  1.Goats Brain             60/-                               **$'
-M19 DB 10,13,'  **  2.Chicken Bhuna Khichuri  80/-                               **$'
-M20 DB 10,13,'  **  3.Mutton Bhuna Khichuri   80/-                               **$' 
-M21 DB 10,13,'  **  4.Chicken Liver/Kolija    40/-                               **$'
-M22 DB 10,13,'  **  5.Goats Liver/Kolija      50/-                               **$'
-M23 DB 10,13,'  **  6.Chicken Vuna            70/-                               **$'
-M34 DB 10,13,'  **  7.Hilsha Fish             60/-                               **$'
+M18 DB 10,13,'  **  1.Goat meat             60/-                               **$'
+M19 DB 10,13,'  **  2.Chicken Bhuna Khichdi  80/-                               **$'
+M20 DB 10,13,'  **  3.Mutton Bhuna Khichdi   80/-                               **$' 
+M21 DB 10,13,'  **  4.Chicken Lababdar    40/-                               **$'
+M22 DB 10,13,'  **  5.Goat Curry      50/-                               **$'
+M23 DB 10,13,'  **  6.Chicken Pan-Fry            70/-                               **$'
+M34 DB 10,13,'  **  7.Hilsa Fish             60/-                               **$'
 M35 DB 10,13,'  **  8.Rui Fish                60/-                               **$'
 M36 DB 10,13,'  **  9.Molay/Kaski Fish        60/-                               **$'
 ;M37 DB 10,13,'13.Chicken Roast                         60/-$' 
 ;M38 DB 10,13,'14.Egg Curry                             30/-$'
-;M39 DB 10,13,'15.Vagetable                             20/-$'
-;M40 DB 10,13,'16.Shirmp Mash/Bhorta                    20/-$'
+;M39 DB 10,13,'15.Vegtable                             20/-$'
+;M40 DB 10,13,'16.Shirmp  Paste                   20/-$'
  
  
  
@@ -66,14 +66,14 @@ M36 DB 10,13,'  **  9.Molay/Kaski Fish        60/-                              
  
 ;snacks
 
-M41 DB 10,13,'  **  1.Moghol Porata    8/-                  **$'
-M42 DB 10,13,'  **  2.Shami/Jali Kabab 80/-                 **$'
-M43 DB 10,13,'  **  3.Singara          5/-                  **$'
-M44 DB 10,13,'  **  4.Chicken Samucha  5/-                  **$'
+M41 DB 10,13,'  **  1.Kothu Parota    8/-                  **$'
+M42 DB 10,13,'  **  2.Shami Kabab 80/-                 **$'
+M43 DB 10,13,'  **  3.Aloo samosa          5/-                  **$'
+M44 DB 10,13,'  **  4.Chicken momo  5/-                  **$'
 
 
 
-;sweat meat
+;sweet meals
 M45 DB 10,13,'  **  1.Faluda 50/-                           **$' 
 M46 DB 10,13,'  **  2.Puding 50/-                           **$'
 M47 DB 10,13,'  **  3.Firnni 50/-                           **$'
@@ -82,8 +82,8 @@ M48 DB 10,13,'  **  4.Curd   50/-                           **$'
 
 
 ;Drinks
-M49 DB 10,13,'  **  1.Shoft Drinks 8/-                      **$'
-M50 DB 10,13,'  **  2.Laschi       6/-                      **$'
+M49 DB 10,13,'  **  1.Soft Drinks 8/-                      **$'
+M50 DB 10,13,'  **  2.Lassi       6/-                      **$'
 M51 DB 10,13,'  **  3.Borhani      9/-                      **$'
 M52 DB 10,13,'  **  4.Labang       9/-                      **$'
 M53 DB 10,13,'  **  5.Coffee       7/-                      **$'
