@@ -29,9 +29,9 @@ M17 DB 10,13,'  **           9.Dum Aloo                60/-                     
 
 ;lunch & dinner 
 
-M25 DB 10,13,'  **  1.Kachchi Birani(Kabab+Egg)              90/-                **$' 
-M26 DB 10,13,'  **  2.Chicken Birani(Kabab+Egg)              90/-                **$' 
-M27 DB 10,13,'  **  3.Plain Polaw                            30/-                **$' 
+M25 DB 10,13,'  **  1.Kachchi Biryani(Kabab+Egg)              90/-                **$' 
+M26 DB 10,13,'  **  2.Chicken Biryani(Kabab+Egg)              90/-                **$' 
+M27 DB 10,13,'  **  3.Plain Pulav                            30/-                **$' 
 M28 DB 10,13,'  **  4.Chicken Bhuna Khichuri(with Kabab+Egg) 90/-                **$'
 M29 DB 10,13,'  **  5.Mutton Bhuna Khichuri(with Kabab+Egg)  90/-                **$'
 M30 DB 10,13,'  **  6.Plain Rice                             10/-                **$'
