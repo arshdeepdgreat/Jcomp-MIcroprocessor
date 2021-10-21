@@ -23,7 +23,7 @@ M13 DB 10,13,'  **           5.Mixed Vegetables        20/-                     
 M14 DB 10,13,'  **           6.Halwa                   20/-                      **$'
 M15 DB 10,13,'  **           7.Luchi                   10/-                      **$'
 M16 DB 10,13,'  **           8.Fried Egg               20/-                      **$'
-M17 DB 10,13,'  **           9.Goats Feet              60/-                      **$' 
+M17 DB 10,13,'  **           9.Dum Aloo                60/-                      **$' 
 
  
 
