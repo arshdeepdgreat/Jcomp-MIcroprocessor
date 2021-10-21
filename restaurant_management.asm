@@ -12,7 +12,7 @@ M6 DB 10,13,'  **                 5.Dessert              **$'
 M7 DB 10,13,'  **                 6.Drinks                  **$'  
                
                
-M8 DB 10,13,10,13,'***Choise your food from the menu***$'
+M8 DB 10,13,10,13,'***Choose your food from the menu***$'
   
 ;BREAKFAST  
 M9 DB 10,13,'  **           1.Tandoori Roti            10/-                      **$' ;breakfast
