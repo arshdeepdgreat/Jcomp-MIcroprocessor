@@ -53,16 +53,6 @@ M23 DB 10,13,'  **  6.Chicken Pan-Fry         70/-                              
 M34 DB 10,13,'  **  7.Hilsa Fish              60/-                               **$'
 M35 DB 10,13,'  **  8.Rui Fish                60/-                               **$'
 M36 DB 10,13,'  **  9.Molay/Kaski Fish        60/-                               **$'
-;M37 DB 10,13,'13.Chicken Roast                         60/-$' 
-;M38 DB 10,13,'14.Egg Curry                             30/-$'
-;M39 DB 10,13,'15.Vegtable                             20/-$'
-;M40 DB 10,13,'16.Shirmp  Paste                   20/-$'
- 
- 
- 
- 
- 
- 
  
 ;snacks
 
@@ -92,8 +82,8 @@ M54 DB 10,13,'  **  6.Tea          5/-                      **$'
 
 
 ;INVALID
-M55 DB 10,13,10,13,'***&&INVALID ENTRY&&***$'
-M56 DB 10,13,'      ***&&Try Again&&***$'
+M55 DB 10,13,10,13,'***  INVALID ENTRY  ***$'
+M56 DB 10,13,'      ***  Try Again  ***$'
 
 
 
