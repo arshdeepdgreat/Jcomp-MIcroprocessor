@@ -338,26 +338,6 @@ MAIN PROC
     CMP BL,9
     JE SIXTY
     
-    ;CMP BL,10
-    ;JE SIXTY
-    
-    ;CMP BL,11
-    ;JE EIGHTY
-    
-    ;CMP BL,12
-    ;JE EIGHTY
-    
-    ;CMP BL,13
-    ;JE FOURTY
-    
-    ;CMP BL,14
-    ;JE FIFTY 
-    
-    ;CMP BL,15
-    ;JE  SEVENTY
-    
-    ;CMP BL,14
-    ;JE SEVENTY
     
     JMP INVALID 
       
@@ -708,36 +688,6 @@ MAIN PROC
     MOV AH,9
     INT 21H
     
-    ;LEA DX,M34               ;10th
-    ;MOV AH,9
-    ;INT 21H
-    
-    
-    ;LEA DX,M35               ;11th
-    ;MOV AH,9
-    ;INT 21H 
-    
-    ;LEA DX,M36               ;12th
-    ;MOV AH,9
-    ;INT 21H      
-       
-    
-    ;;LEA DX,M37               ;13th
-    ;MOV AH,9
-    ;INT 21H 
-    
-    ;LEA DX,M38               ;13th
-    ;MOV AH,9
-    ;INT 21H 
-    
-    ;LEA DX,M39               ;15th
-    ;MOV AH,9
-    ;INT 21H
-    
-    ;LEA DX,M40               ;16th
-    ;MOV AH,9
-    ;INT 21H
-    
     
     LEA DX,MR4
     MOV AH,9
@@ -790,26 +740,6 @@ MAIN PROC
     CMP BL,9
     JE THIRTY
     
-    ;CMP BL,10
-    ;JE SIXTY
-    
-    ;CMP BL,11
-    ;JE SIXTY
-    
-    ;CMP BL,12
-    ;JE SIXTY
-    
-    ;CMP BL,13
-    ;JE SIXTY
-    
-    ;CMP BL,14
-    ;JE THIRTY 
-    
-    ;CMP BL,15
-    ;JE  TWENTY
-    
-    ;CMP BL,14
-    ;JE TWENTY
     
     JMP INVALID
     
